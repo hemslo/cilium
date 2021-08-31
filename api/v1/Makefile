@@ -3,7 +3,7 @@
 include ../../Makefile.defs
 
 # Update this via images/scripts/update-cilium-builder-image.sh
-CILIUM_BUILDER_IMAGE=quay.io/cilium/cilium-builder:93dc1e5dfed6c3cbe07a4ec784e0700328d869a6@sha256:94c24d3bf0fd640406bf19a5806ab66fb43f552617116bd2b36d3faaff94c921
+CILIUM_BUILDER_IMAGE=quay.io/cilium/cilium-builder:6794baa66f4460c79f1c72256b449e503a903aa3@sha256:4babdf831c8687d703bfb96518ae48625f857c06ac82c902496e3852ca7eb40b
 
 .PHONY: proto
 proto:
