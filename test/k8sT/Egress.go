@@ -89,7 +89,6 @@ var _ = SkipDescribeIf(func() bool {
 		deploymentManager.SetKubectl(kubectl)
 
 		ciliumFilename = helpers.TimestampFilename("cilium.yaml")
-		DeployCiliumAndDNS(kubectl, ciliumFilename)
 
 		runEchoServer()
 		assignEgressIP()
